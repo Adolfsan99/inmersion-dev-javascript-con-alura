@@ -9,12 +9,14 @@ var perdedor = false;
 //Para diferenciar " == "
 while (numeroDeIntentosRestantes > 0) {
     var numeroDigitado = prompt("❓ Adivina el número.\nIngresa un número entre 1 y 1000.");
-    numeroDeIntentosHechos++;
+
 //CONDICIONALES
 //Para comparar " == "
     if (numeroDigitado === null) {
         // El usuario presionó "Cancelar" o cerró el cuadro de diálogo
         break; // Salir del bucle si el usuario cancela
+    } else {
+        numeroDeIntentosHechos++;
     }
 
     numeroDigitado = parseInt(numeroDigitado);
