@@ -3,7 +3,7 @@
 
 * Clase 1 - Conversor de divisas y otras cosas: https://adolfsan99.github.io/inmersion-dev-javascript-con-alura/1-ejercicio-conversor-de-monedas/conversor.html
 
-* Clase 2: 
+* Clase 2 - Minijuego "El mentalista": https://adolfsan99.github.io/inmersion-dev-javascript-con-alura/2-ejercicio-juego-mentalista/mentalista.html
 
 * Clase 3: 
 
