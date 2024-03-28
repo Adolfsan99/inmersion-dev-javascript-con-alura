@@ -5,6 +5,6 @@
 
 * Clase 2 - Minijuego "El mentalista": https://adolfsan99.github.io/inmersion-dev-javascript-con-alura/2-ejercicio-juego-mentalista/mentalista.html
 
-* Clase 3: 
+* Clase 3 - Mi lista de juegos: https://adolfsan99.github.io/inmersion-dev-javascript-con-alura/3-lista-de-videojuegos/lista-de-videojuegos.html
 
 * Clase 4: 
