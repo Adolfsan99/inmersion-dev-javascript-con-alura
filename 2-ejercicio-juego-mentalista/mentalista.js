@@ -15,8 +15,6 @@ while (numeroDeIntentosRestantes > 0) {
     if (numeroDigitado === null) {
         // El usuario presionó "Cancelar" o cerró el cuadro de diálogo
         break; // Salir del bucle si el usuario cancela
-    } else {
-        numeroDeIntentosHechos++;
     }
 
     numeroDigitado = parseInt(numeroDigitado);
@@ -24,6 +22,8 @@ while (numeroDeIntentosRestantes > 0) {
     if (isNaN(numeroDigitado) || numeroDigitado < 1 || numeroDigitado > 1000) {
         alert("Por favor, ingresa un número válido entre 1 y 1000.");
         continue; // Volver a solicitar al usuario que ingrese un número válido
+    } else {
+        numeroDeIntentosHechos++;
     }
 
     if (numeroSecreto === numeroDigitado) {
