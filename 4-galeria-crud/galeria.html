@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Inmersión Dev</title>
+
+    <link rel="stylesheet" href="galeria.css">
+
+</head>
+<body>
+
+    <body>
+
+        <div class="container">
+            <h1 class="page-title">
+            Galeria Inmersión Dev
+            </h1>
+            <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png" class="page-logo" alt="">
+            <br><br>
+            <p class="page-subtitle">
+            Ingresa tus recomendaciones de peliculas, videojuegos, etc.
+            </p>
+
+        <div class="form-wrapper">
+            <!--Este formulario nos ayuda a ingresar los links de imagen y añadir las peliculas
+            Es muy importante estudiar como funciona, primeramente tenemos un input con una id pelicula, 
+            luego un placeholder, este nos ayuda a decirle al usuario que informacion debe ingresar, funciona
+            similar a un label, por ultimo, tenemos un button con una funcion onClic, que llama a una funcion
+            javascript, para que funcione, es necesario que la etiqueta <script> tenga un script y que dentro de este script, este la funcion que necesitamos, en este caso 'agregarPelicula()' cuando el usuario de clic al boton, 'onClick' entonces se ejecuta la funciona ¿agregarPelicula()-->
+            <input type="text" id="pelicula" name="pelicula" placeholder="Agrega el link de imagen">
+            <input type="text" id="trailer" name="trailer" placeholder="Agrega url de trailer de youtube">
+            <button onClick="agregarPelicula()">Agregar contenido</button>
+            <button onClick="eliminarPelicula()">❌</button>
+            <br><br>
+        </div>
+
+        </div>
+        <!-- Dentro de este div estamos añadiendo las imagenes -->
+        <div id="listaPeliculas"></div>
+        
+        <a href="https://www.aluracursos.com/" target="_blank"><img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="" class="alura-latam-logo"></a>
+
+    </body>
+
+    <script src="galeria.js"></script>
+
+</body>
+</html>
