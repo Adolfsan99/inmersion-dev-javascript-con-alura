@@ -7,4 +7,4 @@
 
 * Clase 3 - Mi lista de juegos: https://adolfsan99.github.io/inmersion-dev-javascript-con-alura/3-lista-de-videojuegos/lista-de-videojuegos.html
 
-* Clase 4 - Mi Galeria CRUD: https://adolfsan99.github.io/inmersion-dev-javascript-con-alura/4-galeria-crud/galeria.html.html
+* Clase 4 - Mi Galeria CRUD: https://adolfsan99.github.io/inmersion-dev-javascript-con-alura/4-galeria-crud/galeria.html
