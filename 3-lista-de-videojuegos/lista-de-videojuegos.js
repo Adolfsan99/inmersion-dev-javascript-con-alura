@@ -26,5 +26,8 @@ for (var index = 0; index < vistaVideojuegos.length; index++) {
     if (!vistaVideojuegos[index].endsWith(".jpg")) {
         alert("❌Imagen no válida en el índice " + index + ".\n¡Solo imagenes .jpg son validas!");
     }
-    document.write('<div><img src=" + vistaVideojuegos[index] + "><p style='color: white;'>" + nombreVideojuegos[index] + "<p/></div>');
+    document.write("<div>");
+    document.write("<img src=" + vistaVideojuegos[index] + ">");
+    document.write("<p style='color: white;'>" + nombreVideojuegos[index] + "<p/>");
+    document.write("</div>");
 }
